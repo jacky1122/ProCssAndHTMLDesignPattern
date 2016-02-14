@@ -1,0 +1,55 @@
+div{
+	width: 250px;
+	height: 76px;
+}
+.bg-img{
+	background: url(../img/HBuilder.png) no-repeat;
+}
+
+.positioned{
+	position: relative;
+	border: grey solid 1px;		
+}
+
+.absolute{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: palevioletred solid 1px;
+}
+
+#h2{
+	position: relative;
+	
+	width: 250px;
+	height: 76px;
+	
+	overflow: hidden;
+}
+
+#h2 span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+	width: 250px;
+	height: 76px;
+	background: url(../img/HBuilder.png) no-repeat;
+
+}
+
+.left-marginal{
+	position: relative;
+	margin-left: 200px;
+	border: darkolivegreen solid 1px;
+}
+
+.marginal-heading{
+	position: absolute;
+	left: -200px;
+	top: 0;
+	margin: 0;
+}
+
+
+
